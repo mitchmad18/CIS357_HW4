@@ -13,6 +13,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    let BACKGROUND_COLOR=UIColor.init(red:158, green:222,blue:232, alpha:1.00)
+    let FOREGROUND_COLOR=UIColor.init(red:25, green:85, blue: 94, alpha:1.00)
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
