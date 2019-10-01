@@ -9,7 +9,7 @@
 import UIKit
 import Foundation
 
-class ViewController: UIViewController, SettingsViewControllerDelegate {
+class ViewController: HW3ViewController, SettingsViewControllerDelegate {
 
     @IBOutlet weak var fromTextField: DecimalMinusTextField!
     
@@ -33,6 +33,7 @@ class ViewController: UIViewController, SettingsViewControllerDelegate {
         self.fromTextField.delegate = self
         self.toTextField.delegate = self
         
+        self.setNeedsStatusBarAppearanceUpdate()
     }
     
     
@@ -44,6 +45,10 @@ class ViewController: UIViewController, SettingsViewControllerDelegate {
     
     @objc func dismissKeyboard(){
         self.view.endEditing(true)
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -141,7 +146,6 @@ class ViewController: UIViewController, SettingsViewControllerDelegate {
     
 }
 
-
 extension ViewController: UITextFieldDelegate{
     func textFieldDidBeginEditing(_ textField: UITextField) {
         if(textField == self.fromTextField){
@@ -150,6 +154,12 @@ extension ViewController: UITextFieldDelegate{
         else{
             self.fromTextField.text = ""
         }
+    }
+}
+
+extension UINavigationController {
+    override open var preferredStatusBarStyle: UIStatusBarStyle {
+        return topViewController?.preferredStatusBarStyle ?? .default
     }
 }
 

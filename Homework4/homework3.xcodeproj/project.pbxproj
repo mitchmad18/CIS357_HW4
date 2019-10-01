@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		335BB04F23393BF40025ECAA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335BB04E23393BF40025ECAA /* SettingsViewController.swift */; };
+		3365E3042343CB8600801F19 /* HW3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3365E3032343CB8600801F19 /* HW3ViewController.swift */; };
 		337CE7A923329E6500E2E093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337CE7A823329E6500E2E093 /* AppDelegate.swift */; };
 		337CE7AB23329E6500E2E093 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337CE7AA23329E6500E2E093 /* ViewController.swift */; };
 		337CE7AE23329E6500E2E093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337CE7AC23329E6500E2E093 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		335BB04E23393BF40025ECAA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3365E3032343CB8600801F19 /* HW3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3ViewController.swift; sourceTree = "<group>"; };
 		337CE7A523329E6500E2E093 /* homework3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homework3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		337CE7A823329E6500E2E093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		337CE7AA23329E6500E2E093 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				337CE7B123329E6600E2E093 /* LaunchScreen.storyboard */,
 				337CE7B423329E6600E2E093 /* Info.plist */,
 				335BB04E23393BF40025ECAA /* SettingsViewController.swift */,
+				3365E3032343CB8600801F19 /* HW3ViewController.swift */,
 			);
 			path = homework3;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				337CE7D72332A17800E2E093 /* DecimalMinusTextField.swift in Sources */,
 				337CE7AB23329E6500E2E093 /* ViewController.swift in Sources */,
+				3365E3042343CB8600801F19 /* HW3ViewController.swift in Sources */,
 				337CE7A923329E6500E2E093 /* AppDelegate.swift in Sources */,
 				335BB04F23393BF40025ECAA /* SettingsViewController.swift in Sources */,
 			);
