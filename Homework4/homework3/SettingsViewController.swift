@@ -14,7 +14,7 @@ protocol SettingsViewControllerDelegate {
 
 
 
-class SettingsViewController: HW3ViewController {
+class SettingsViewController: UIViewController {
     
     var delegate: SettingsViewControllerDelegate?
     

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3328200E23442EAC00C6E080 /* CalculatorTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3328200D23442EAC00C6E080 /* CalculatorTextField.swift */; };
+		332820102344395C00C6E080 /* CalculatorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3328200F2344395C00C6E080 /* CalculatorLabel.swift */; };
+		3328201223443C0D00C6E080 /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3328201123443C0D00C6E080 /* CalculatorButton.swift */; };
 		335BB04F23393BF40025ECAA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335BB04E23393BF40025ECAA /* SettingsViewController.swift */; };
 		3365E3042343CB8600801F19 /* HW3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3365E3032343CB8600801F19 /* HW3ViewController.swift */; };
 		337CE7A923329E6500E2E093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337CE7A823329E6500E2E093 /* AppDelegate.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3328200D23442EAC00C6E080 /* CalculatorTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTextField.swift; sourceTree = "<group>"; };
+		3328200F2344395C00C6E080 /* CalculatorLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLabel.swift; sourceTree = "<group>"; };
+		3328201123443C0D00C6E080 /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
 		335BB04E23393BF40025ECAA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		3365E3032343CB8600801F19 /* HW3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3ViewController.swift; sourceTree = "<group>"; };
 		337CE7A523329E6500E2E093 /* homework3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homework3.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +118,9 @@
 				337CE7B423329E6600E2E093 /* Info.plist */,
 				335BB04E23393BF40025ECAA /* SettingsViewController.swift */,
 				3365E3032343CB8600801F19 /* HW3ViewController.swift */,
+				3328200D23442EAC00C6E080 /* CalculatorTextField.swift */,
+				3328200F2344395C00C6E080 /* CalculatorLabel.swift */,
+				3328201123443C0D00C6E080 /* CalculatorButton.swift */,
 			);
 			path = homework3;
 			sourceTree = "<group>";
@@ -268,8 +277,11 @@
 				337CE7D72332A17800E2E093 /* DecimalMinusTextField.swift in Sources */,
 				337CE7AB23329E6500E2E093 /* ViewController.swift in Sources */,
 				3365E3042343CB8600801F19 /* HW3ViewController.swift in Sources */,
+				3328200E23442EAC00C6E080 /* CalculatorTextField.swift in Sources */,
 				337CE7A923329E6500E2E093 /* AppDelegate.swift in Sources */,
 				335BB04F23393BF40025ECAA /* SettingsViewController.swift in Sources */,
+				332820102344395C00C6E080 /* CalculatorLabel.swift in Sources */,
+				3328201223443C0D00C6E080 /* CalculatorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -34,6 +34,7 @@ class ViewController: HW3ViewController, SettingsViewControllerDelegate {
         self.toTextField.delegate = self
         
         self.setNeedsStatusBarAppearanceUpdate()
+        
     }
     
     
@@ -47,9 +48,9 @@ class ViewController: HW3ViewController, SettingsViewControllerDelegate {
         self.view.endEditing(true)
     }
     
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
+    //override var preferredStatusBarStyle: UIStatusBarStyle {
+        //return .lightContent
+    //}
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         //if(segue.identifier == "settingsSegue"){
